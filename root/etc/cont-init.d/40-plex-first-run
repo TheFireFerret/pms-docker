@@ -31,7 +31,7 @@ function setPref {
 
 home="$(echo ~plex)"
 [ -f /etc/default/plexmediaserver ] && . /etc/default/plexmediaserver
-pmsApplicationSupportDir="${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR:-${home}/Library/Application Support}"
+pmsApplicationSupportDir="${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR:-${home}/Library/Application Support/plexbeta}"
 prefFile="${pmsApplicationSupportDir}/Plex Media Server/Preferences.xml"
 
 # Setup user/group ids
